@@ -1,4 +1,4 @@
-# linktree-miner
+# linktree-parser
 
 To install dependencies:
 
