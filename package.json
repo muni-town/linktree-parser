@@ -1,5 +1,5 @@
 {
-  "name": "linktree-miner",
+  "name": "linktree-parser",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
