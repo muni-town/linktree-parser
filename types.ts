@@ -118,4 +118,17 @@ type LinktreeResponse = {
   };
 };
 
-export type { LinktreeResponse, Account, Link, SocialLink, Theme };
+type ScrapeLinktreeProfile = {
+  error: string | null;
+  raw: any | null;
+  account: Account | null;
+  statusCode?: number | null;
+};
+export type {
+  LinktreeResponse,
+  Account,
+  Link,
+  SocialLink,
+  Theme,
+  ScrapeLinktreeProfile,
+};
