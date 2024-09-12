@@ -1,15 +1,14 @@
 {
   "name": "linktree-parser",
-  "module": "index.ts",
   "type": "module",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": {
     "name": "Harsh Mangalam",
     "email": "harshdev8218@gmail.com",
     "url": "https://github.com/harshmangalam"
   },
   "bugs": {
-    "url": "https://github.com/muni-town/linktree-parser/issues/new",
+    "url": "https://github.com/muni-town/linktree-parser/issues/",
     "email": "harshdev8218@gmail.com"
   },
   "categories": [
