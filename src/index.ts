@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
-import { LINKTREE_BASE_URL, USER_NOT_FOUND } from "./constants";
-import type { LinktreeResponse, ScrapeLinktreeProfile } from "./types";
+import { LINKTREE_BASE_URL, USER_NOT_FOUND } from "@/constants";
+import type { LinktreeResponse, ScrapeLinktreeProfile } from "@/types";
 
 export async function scrapeLinktreeAccount(
   username: string
