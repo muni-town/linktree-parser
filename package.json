@@ -2,6 +2,32 @@
   "name": "linktree-parser",
   "module": "index.ts",
   "type": "module",
+  "version": "1.0.0",
+  "author": {
+    "name": "Harsh Mangalam",
+    "email": "harshdev8218@gmail.com",
+    "url": "https://github.com/harshmangalam"
+  },
+  "bugs": {
+    "url": "https://github.com/muni-town/linktree-parser/issues/new",
+    "email": "harshdev8218@gmail.com"
+  },
+  "categories": [
+    "Education",
+    "Other",
+    "Programming Languages"
+  ],
+  "description": "linktree-parser is a TypeScript library for scraping and extracting account, links, banners, and metadata from Linktree profiles.",
+  "keywords": [
+    "nodejs",
+    "bun",
+    "deno",
+    "typescript-library",
+    "javascript",
+    "scraper",
+    "web-scraping"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest"
   },
