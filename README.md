@@ -25,12 +25,8 @@ bun add linktree-parser
 ```ts
 import { scrapeLinktreeAccount } from "linktree-parser";
 
-const { account, error, raw, statusCode } =
-  await scrapeLinktreeAccount("harshmangalam_");
+const { account, error, raw } = await scrapeLinktreeAccount("harshmangalam");
 
-if (statusCode === 404) {
-  throw new Error("Oops! We couldn't find the username you're looking for");
-}
 if (error) {
   console.error(error);
 }
