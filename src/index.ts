@@ -1,4 +1,4 @@
-export { scrapeLinktreeAccount } from "@/linktree";
+export { scrapeLinktreeAccount } from "./linktree";
 export {
   Account,
   Link,
@@ -6,4 +6,4 @@ export {
   ScrapeLinktreeProfile,
   SocialLink,
   Theme,
-} from "@/types";
+} from "./types";
