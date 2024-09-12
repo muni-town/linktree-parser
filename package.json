@@ -2,7 +2,7 @@
   "name": "linktree-parser",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Harsh Mangalam",
     "email": "harshdev8218@gmail.com",
@@ -25,7 +25,11 @@
     "typescript-library",
     "javascript",
     "scraper",
-    "web-scraping"
+    "web-scraping",
+    "linktree",
+    "linktree-parser",
+    "linktree-scraper",
+    "linktree-miner"
   ],
   "repository": {
     "url": "https://github.com/muni-town/linktree-parser",
