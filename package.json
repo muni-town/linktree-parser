@@ -27,14 +27,33 @@
     "scraper",
     "web-scraping"
   ],
+  "repository": {
+    "url": "https://github.com/muni-town/linktree-parser",
+    "type": "git"
+  },
+  "homepage": "https://github.com/muni-town/linktree-parser/blob/main/README.md",
   "license": "MIT",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
-  }
+  },
+  "scripts": {
+    "build": "bun build --target=node ./src/index.ts --outfile=dist/index.js && bun run build:declaration",
+    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.types.json",
+    "postbuild": "rimraf tsconfig.types.tsbuildinfo"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
 }
